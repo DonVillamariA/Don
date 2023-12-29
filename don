@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combined SVG Art</title>
+</head>
+<body>
+
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Line and Circle -->
+  <line x1="10" y1="10" x2="50" y2="50" stroke="black" stroke-width="2"/>
+  <circle cx="100" cy="25" r="20" fill="red"/>
+
+  <!-- Circle and Rectangle -->
+  <circle cx="150" cy="100" r="30" fill="blue"/>
+  <rect x="120" y="70" width="60" height="60" fill="green"/>
+
+  <!-- Polyline and Circle -->
+  <polyline points="10,150 30,180 50,150 70,180 90,150" fill="none" stroke="purple" stroke-width="2"/>
+  <circle cx="160" cy="160" r="15" fill="orange"/>
+
+  <!-- Polygon and Ellipse -->
+  <polygon points="120,220 160,220 180,260 140,280" fill="yellow" stroke="brown" stroke-width="2"/>
+  <ellipse cx="180" cy="250" rx="20" ry="15" fill="pink"/>
+
+  <!-- Circle, Line and Rectangle -->
+  <circle cx="40" cy="250" r="25" fill="cyan"/>
+  <line x1="10" y1="280" x2="70" y2="280" stroke="black" stroke-width="2"/>
+  <rect x="10" y="240" width="60" height="40" fill="lightgreen"/>
+
+  <!-- Polyline and Polygon -->
+  <polyline points="120,10 140,40 160,10 180,40" fill="none" stroke="darkblue" stroke-width="2"/>
+  <polygon points="140,60 160,60 180,90 140,110" fill="lightcoral" stroke="darkred" stroke-width="2"/>
+
+  <!-- Circle, Rectangle, Polyline, Polygon, and Ellipse -->
+  <circle cx="80" cy="40" r="15" fill="maroon"/>
+  <rect x="60" y="10" width="30" height="30" fill="navy"/>
+  <polyline points="60,70 80,90 100,70" fill="none" stroke="olive" stroke-width="2"/>
+  <polygon points="70,110 90,110 100,130 80,150 60,130" fill="teal" stroke="purple" stroke-width="2"/>
+  <ellipse cx="80" cy="170" rx="25" ry="15" fill="darkorange"/>
+
+</svg>
+
+</body>
+</html>
